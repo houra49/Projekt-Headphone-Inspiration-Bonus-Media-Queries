@@ -1,0 +1,753 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+body{
+    margin:0;
+    background-color: #2e2e2e;
+    font-family: 'Work Sans', sans-serif;
+}
+/* -----------------------------------section-2------------------------------------------ */
+section:nth-child(1){
+    position: relative;
+}
+.logo{
+    position:inline;
+}
+.logo img{
+    padding-top: 2%;
+    padding-left: 4%;
+    position: fixed;
+}
+.logo a{
+    color: #ebccc2;
+    font-size: 10px;
+}
+.logo a:nth-of-type(1){
+    padding-left: 60%;
+    text-decoration: none;
+    padding-top: 3%;
+} 
+.logo a:nth-of-type(2){
+    padding-left: 74%;
+    text-decoration: none;
+    padding-top: 3%;
+} 
+.logo a:nth-of-type(3){
+    padding-left: 80%;
+    text-decoration: none;
+    padding-top: 3%;
+} 
+.logo a:nth-of-type(4){
+    padding-left: 85%;
+    text-decoration: none;
+    padding-top: 3%;
+} 
+.logo a:nth-of-type(5){
+    padding-left: 96%;
+    text-decoration: none;
+    padding-top: 3%;
+} 
+.logo a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+/* -----------------------------------aside------------------------------------ */
+aside{
+    position: relative;
+}
+
+.linksnav{
+    list-style: none;
+}
+.linksnav li,a{
+    text-decoration: none;
+    color:#ebccc2;
+    font-size: 13px;
+    position: fixed;
+}
+.about{
+    top:200px;
+    left:35px;
+    position: absolute;
+}
+.lounger{
+    top:300px;
+    left:35px;
+    position: absolute;
+}
+.experience{
+    top:9%;
+    left:50px;
+    position: absolute;
+}
+.inspiration{
+    top:29%;
+    left:50px;
+    position: absolute;
+}
+.shop{
+    top:30%;
+    left:50px;
+    position: absolute;
+}
+.linksnav a:hover{
+    color: #fff;
+}
+.circle{
+    height: 7px;
+    width:7px;
+    background-color: #000;
+    border: 2px solid #867772;
+    position: absolute;
+    border-radius: 100%;
+    left:-15px;
+    top:200px;
+}
+.circle1{
+    height: 7px;
+    width:7px;
+    background-color: #000;
+    border: 2px solid #867772;
+    position: absolute;
+    border-radius: 100%;
+    left:-15px;
+    top:300px;
+}
+.circle2{
+    height: 7px;
+    width:7px;
+    background-color: #000;
+    border: 2px solid #867772;
+    position: absolute;
+    border-radius: 100%;
+    left:-15px;
+    top:400px;
+}
+.circle3{
+    height: 7px;
+    width:7px;
+    background-color: #000;
+    border: 2px solid #867772;
+    position: absolute;
+    border-radius: 100%;
+    left:-15px;
+    top:500px;
+}
+.circle4{
+    height: 7px;
+    width:7px;
+    background-color: #000;
+    border: 2px solid #867772;
+    position: absolute;
+    border-radius: 100%;
+    left:-15px;
+    top:600px;
+}
+.border{
+    height: 17px;
+    width:17px;
+    border: 2px solid #ebccc2;
+    position: absolute;
+    border-radius: 100%;
+    left:-20px;
+    top:195px;
+}
+.border1{
+    height: 17px;
+    width:17px;
+    border: 2px solid #ebccc2;
+    position: absolute;
+    border-radius: 100%;
+    left:-20px;
+    top:295px;
+}
+.border2{
+    height: 17px;
+    width:17px;
+    border: 2px solid #ebccc2;
+    position: absolute;
+    border-radius: 100%;
+    left:-7px;
+    top:-7px;
+}
+.border3{
+    height: 17px;
+    width:17px;
+    border: 2px solid #ebccc2;
+    position: absolute;
+    border-radius: 100%;
+    left:-7px;
+    top:-7px;
+}
+.border4{
+    height: 17px;
+    width:17px;
+    border: 2px solid #ebccc2;
+    position: absolute;
+    border-radius: 100%;
+    left:-7px;
+    top:-7px;
+}.line{
+    height: 60px;
+    width:2px;
+    background-color:#867772;
+    position: absolute;
+    top:230px;
+    left:-11px;
+}
+.line2{
+    height: 60px;
+    width:2px;
+    background-color:#867772;
+    position: absolute;
+    top:-75px;
+    left:2px;
+}
+.line3{
+    height: 60px;
+    width:2px;
+    background-color:#867772;
+    position: absolute;
+    top:-75px;
+    left:2px;
+}
+.line4{
+    height: 60px;
+    width:2px;
+    background-color:#867772;
+    position: absolute;
+    top:-75px;
+    left:2px;
+}
+/* -----------------------------------section-2------------------------------------ */
+.img1{
+    height: 100vh;
+    width: 90vw;
+    padding-left: 5%;
+    padding-top:30%;
+}
+h1{
+   color:#ebccc2;
+   position: absolute;
+   left:25%;
+   font-size:35px;
+   line-height: 45px;
+   top: 15%;
+}
+/* -----------------------------------section-3------------------------------------ */
+section:nth-child(4){
+    position: relative;
+}
+section:nth-child(4) img{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: 18%;
+    padding-top:10%;
+    padding-bottom: 15%;
+}
+section:nth-child(4) h2{
+    position: absolute;
+    left: 60%;
+    padding-top:15%;
+    color:#ebccc2;
+    font-size: 30px;
+}
+section:nth-child(4) p{
+    position: absolute;
+    left: 60%;
+    padding-top:20%;
+    line-height: 30px;
+    color: #867772;
+    font-size: 13px;
+}
+/* ----------------------------------lounger.html----------------------------------- */
+.voyag{
+   height: 100vh;
+   width:800px;
+   margin: 0;
+}
+.h1Lounger{
+    position: absolute;
+    left: 58%;
+    padding-top:5%;
+    color:#ebccc2;
+    font-size: 30px;
+}
+.pLounger{
+    position: absolute;
+    left: 58%;
+    top:38%;
+    line-height: 30px;
+    color: #867772;
+    font-size: 13px;
+}
+/* --------------------------------experience.html--------------------------------- */
+.Experience{
+    height: 100vh;
+    width:800px;
+    margin: 0;
+ }
+.h1Experience{
+    position: absolute;
+    left: 58%;
+    padding-top:5%;
+    color:#ebccc2;
+    font-size: 30px;
+}
+.pExperience{
+    position: absolute;
+    left: 58%;
+    top:38%;
+    line-height: 30px;
+    color: #867772;
+    font-size: 13px;
+}
+/* --------------------------------inspiration.html--------------------------------- */
+#section{
+    position: relative;
+}
+#video{
+    position: absolute;
+    height: 600px;
+    width: 900px;
+    left: 18%;
+    top: 60px;
+    border-top: none;
+}
+.h1Inspiration{
+    position: absolute;
+    top:760px;
+    font-size: 15px;
+    left: 18%;
+}
+.h1-2Inspiration{
+    position: absolute;
+    top:800px;
+    font-size: 30px;
+    left: 18%;
+    color: rgb(234, 204, 194);
+    letter-spacing: 2px;
+}
+.button1{
+    position: absolute;
+    padding:3px 6px;
+    background-color:#2e2e2e;
+    top:900px;
+    left: 18%;
+    font-size: 10px;
+    color:#867772;
+    border: #ebccc2 solid 1px;
+}
+.button2{
+    position: absolute;
+    padding:3px 6px;
+    background-color:#2e2e2e;
+    top:900px;
+    left: 23%;
+    font-size: 10px;
+    color:#867772;
+    border: #ebccc2 solid 1px;
+}
+.button3{
+    position: absolute;
+    padding:3px 6px;
+    background-color: #2e2e2e;
+    top:900px;
+    left: 28%;
+    font-size: 10px;
+    color:#867772;
+    border: #ebccc2 solid 1px;
+}
+#span{
+    position: absolute;
+    top:920px;
+    font-size: 12px;
+    left: 18%;
+    color:#867772;
+} 
+.ETC{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    left: 18%;
+    top:1000px;
+}
+.h2ETC{
+    position: absolute;
+    left: 60%;
+    top:1100px;
+    color:#ebccc2;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.h2-ETC{
+    position: absolute;
+    left: 60%;
+    top:1110px;
+    color:#ebccc2;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.pETC{
+    position: absolute;
+    left: 60%;
+    top:1200px;
+    color:#867772;
+    font-size: 13px;
+    line-height: 25px;
+}
+.ETC5{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    left: 52.8%;
+    top:1400px;
+}
+.h2ETC5{
+    position: absolute;
+    left: 18%;
+    top:1500px;
+    color:#ebccc2;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.h2-ETC5{
+    position: absolute;
+    left: 18%;
+    top:1510px;
+    color:#ebccc2;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.pETC5{
+    position: absolute;
+    left: 18%;
+    top:1650px;
+    color:#867772;
+    font-size: 13px;
+    line-height: 25px;
+}
+/* -----------------------------------shop.html------------------------------------ */
+.shop{
+    position: relative;
+}
+.imgshop{
+    height: 100vh;
+    width:800px;
+ }
+ .img-shop{
+   position:absolute;
+   top: 10%;
+   left: 60%;
+ }
+ .h1shop{
+     position: absolute;
+     left: 72%;
+     top:65%;
+     color:rgb(234, 204, 194);
+     font-size: 30px;
+ }
+ .pshop{
+     position: absolute;
+     left: 74%;
+     top:72%;
+     line-height: 30px;
+     color: #867772;
+     font-size: 13px;
+ }
+ .p-shop{
+    position: absolute;
+    left: 75.5%;
+    top:76%;
+    line-height: 30px;
+    color: #867772;
+    font-size: 13px;
+}
+.buy{
+    position: absolute;
+    left: 74%;
+    top:82%;
+    color: #2e2e2e;
+    background-color: #ebccc2;
+    font-size: 10px;
+    padding: 10px 25px;
+    border: #ebccc2 solid 1px;
+    border-radius:2px
+}
+/* --------------------------------------------------------------------------------- */
+/* ------------------------ Media-Queries(600px)------------------------------------ */
+@media (max-width:600px){
+    .logo a:nth-of-type(1){
+        padding-left: 30%;
+    } 
+    .logo a:nth-of-type(2){
+        padding-left: 50%;
+    } 
+    .logo a:nth-of-type(3){
+        padding-left: 60%;
+    } 
+    .logo a:nth-of-type(4){
+        padding-left: 70%;
+    } 
+    .logo a:nth-of-type(5){
+        padding-left: 90%;
+    } 
+    /* -----------------------------------section-2------------------------------------ */
+    h1{
+        left:30%;
+        font-size:25px;
+        line-height: 35px;
+        top:20%;
+     }
+     .img1{
+        padding-top:71%;
+    }
+    /* -----------------------aside------------------------ */
+    .linksnav li,a{
+        font-size: 10px;
+    }
+    .about{
+        top:200px;
+        left:35px;
+        position: absolute;
+    }
+    .lounger{
+        top:300px;
+        left:35px;
+        position: absolute;
+    }
+    .experience{
+        top:9%;
+        left:50px;
+        position: absolute;
+    }
+    .inspiration{
+        top:29%;
+        left:50px;
+        position: absolute;
+    }
+    .shop{
+        top:30%;
+        left:50px;
+        position: absolute;
+    }
+    .linksnav a:hover{
+        color: #fff;
+    }
+    .circle{
+        height: 5px;
+        width:5px;
+        left:-30px;
+    }
+    .circle1{
+        height: 5px;
+        width:5px;
+        left:-30px;
+    }
+    .circle2{
+        height: 5px;
+        width:5px;
+        left:-30px;
+    }
+    .circle3{
+        height: 5px;
+        width:5px;
+        left:-30px;
+    }
+    .circle4{
+        height: 5px;
+        width:5px;
+        left:-30px;
+    }
+    .border{
+        height: 14px;
+        width:14px;
+        left:-34px;
+    }
+    .border1{
+        height: 14px;
+        width:14px;
+        left:-34px;
+    }
+    .border2{
+        height: 14px;
+        width:14px;
+        left:-6px;
+    }
+    .border3{
+        height: 14px;
+        width:14px;
+        left:-6px;
+    }
+    .border4{
+        height: 14px;
+        width:14px;
+        left:-6px;
+    }.line{
+        left:-25px;
+    }
+    .about{
+        left:0;
+    }
+    .lounger{
+        left:0;
+    }
+    .experience{
+        left:25px;
+    }
+    .inspiration{
+        left:25px;
+    }
+    .shop{
+        left:25px;
+    }
+    /* -----------------------------------section-3------------------------------------ */
+    section:nth-child(4) img{
+    height: 400px;
+    width: 400px;
+    left: 20%;
+    padding-top:10%;
+    }
+    section:nth-child(4) h2{
+    left: 40%;
+    padding-top:85%;
+    font-size: 20px;
+    }
+    section:nth-child(4) p{
+    left: 33%;
+    padding-top:95%;
+    line-height: 20px;
+    color: #867772;
+    font-size: 12px;
+    padding-bottom: 10%;
+    }
+    /* ----------------------------------lounger.html----------------------------------- */
+.voyag{
+    width:600px;
+ }
+ .h1Lounger{
+     left: 38%;
+     padding-top:100%;
+     font-size: 20px;
+ }
+ .pLounger{
+     left: 28%;
+     top:117%;
+     line-height: 20px;
+     font-size: 12px;
+     padding-bottom: 10%;
+ }
+/* --------------------------------experience.html--------------------------------- */
+.Experience{
+    width:600px;
+ }
+.h1Experience{
+    left: 38%;
+     padding-top:100%;
+     font-size: 20px;
+}
+.pExperience{
+    left: 28%;
+     top:117%;
+     line-height: 20px;
+     font-size: 12px;
+     padding-bottom: 10%;
+}
+/* --------------------------------inspiration.html--------------------------------- */
+#video{
+    height: 500px;
+    width: 400px;
+}
+.h1Inspiration{
+    top:700px;
+}
+.h1-2Inspiration{
+    top:750px;
+    font-size: 25px;
+}
+.button1{
+    padding:4px 10px;
+    top:850px;
+    left: 18%;
+}
+.button2{
+    padding:4px 10px;
+    top:850px;
+    left: 27%;
+}
+.button3{
+    padding:4px 10px;
+    top:850px;
+    left: 37%;
+}
+#span{
+    top:900px;
+} 
+.ETC{
+    height: 300px;
+    width: 400px;
+    left: 18%;
+}
+.h2ETC{
+    left: 18%;
+    top:1350px;
+}
+.h2-ETC{
+    left: 18%;
+    top:1380px;
+    font-size: 25px;
+}
+.pETC{
+    left: 18%;
+    top:1430px;
+}
+.ETC5{
+    height: 300px;
+    width: 400px;
+    left: 18%;
+    top:1650px;
+}
+.h2ETC5{
+    top:2000px;
+}
+.h2-ETC5{
+    top:2040px;
+    font-size: 25px;
+}
+.pETC5{
+    top:2130px;
+    padding-bottom: 10%;
+}
+/* -----------------------------------shop.html------------------------------------ */
+.imgshop{
+    width:600px;
+ }
+ .img-shop{
+   top: 100%;
+   left: 15%;
+   height: 400px;
+   width: 400px;
+ }
+ .h1shop{
+     left: 37%;
+     top:160%;
+     font-size: 25px;
+ }
+ .pshop{
+     left: 37%;
+     top:170%;
+ }
+ .p-shop{
+    left: 37%;
+    top:178%;
+}
+.buy{
+    left: 42%;
+    top:190%;
+    padding: 7px 20px;
+}
+}
+/* --------------------------------------------------------------------------------- */
+/* ------------------------ Media-Queries(400px)------------------------------------ */
+@media (min-width:1100px){
+
+}
